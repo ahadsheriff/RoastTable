@@ -1,0 +1,27 @@
+{
+  "celebs" : [
+    {
+      "name" : "Donald Trump",
+      "twitter" : "@realDonaldTrump",
+      "image" : "trump",
+    },
+              {
+              "name" : "Hillary Clinton",
+              "twitter" : "@HillaryClinton",
+              "image" : "clinton",
+              },
+              {
+              "name" : "Drake",
+              "twitter" : "@Drake",
+              "image" : "clinton",
+              },
+              {
+              "name" : "Kanye West",
+              "twitter" : "@KanyeWest",
+              "image" : "kanye",
+              },
+
+
+
+  ]
+}
