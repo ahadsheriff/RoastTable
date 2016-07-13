@@ -9,18 +9,43 @@
         <scene sceneID="2n3-mJ-ks4">
             <objects>
                 <tableViewController title="Celebrities" id="9hm-Ql-vR6" customClass="CelebListViewController" customModule="RoastTable" customModuleProvider="target" sceneMemberID="viewController">
-                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="nzA-gH-xFO">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="300" sectionHeaderHeight="28" sectionFooterHeight="28" id="nzA-gH-xFO">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="Cell" id="0QC-rl-HOA">
-                                <rect key="frame" x="0.0" y="92" width="600" height="44"/>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="Cell" rowHeight="300" id="0QC-rl-HOA" customClass="CelebListViewCell" customModule="RoastTable" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="92" width="600" height="300"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="0QC-rl-HOA" id="lmR-wj-HPt">
-                                    <rect key="frame" x="0.0" y="0.0" width="600" height="43.5"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="600" height="300"/>
                                     <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ILE-0h-4RN">
+                                            <rect key="frame" x="250" y="100" width="100" height="100"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="QnE-JP-IP6">
+                                            <rect key="frame" x="0.0" y="0.0" width="600" height="300"/>
+                                            <color key="backgroundColor" red="0.45706424392564093" green="0.45706424392564093" blue="0.45706424392564093" alpha="1" colorSpace="calibratedRGB"/>
+                                        </imageView>
+                                    </subviews>
+                                    <constraints>
+                                        <constraint firstItem="QnE-JP-IP6" firstAttribute="centerY" secondItem="ILE-0h-4RN" secondAttribute="centerY" id="0yF-65-3h1"/>
+                                        <constraint firstItem="QnE-JP-IP6" firstAttribute="top" secondItem="lmR-wj-HPt" secondAttribute="top" id="IoP-PO-NCL"/>
+                                        <constraint firstItem="QnE-JP-IP6" firstAttribute="leading" secondItem="lmR-wj-HPt" secondAttribute="leading" id="IpL-Qm-XJM"/>
+                                        <constraint firstItem="QnE-JP-IP6" firstAttribute="centerX" secondItem="ILE-0h-4RN" secondAttribute="centerX" id="UW3-eD-fEE"/>
+                                        <constraint firstItem="QnE-JP-IP6" firstAttribute="centerY" secondItem="lmR-wj-HPt" secondAttribute="centerY" id="l3w-vd-G5c"/>
+                                        <constraint firstAttribute="trailing" secondItem="QnE-JP-IP6" secondAttribute="trailing" id="nbh-y0-fT6"/>
+                                    </constraints>
                                 </tableViewCellContentView>
+                                <connections>
+                                    <outlet property="handle" destination="ILE-0h-4RN" id="wXr-eq-2jY"/>
+                                    <outlet property="image" destination="QnE-JP-IP6" id="DOT-Tl-zpL"/>
+                                    <outlet property="pic" destination="QnE-JP-IP6" id="38n-Uy-NS5"/>
+                                </connections>
                             </tableViewCell>
                         </prototypes>
                         <connections>

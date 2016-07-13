@@ -17,6 +17,7 @@
 		7BCE2D521D35850E007EDCF8 /* CelebListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BCE2D511D35850E007EDCF8 /* CelebListViewController.swift */; };
 		7BCE2D541D3586CE007EDCF8 /* celebs.json in Resources */ = {isa = PBXBuildFile; fileRef = 7BCE2D531D3586CE007EDCF8 /* celebs.json */; };
 		7BCE2D561D358987007EDCF8 /* celeb.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BCE2D551D358987007EDCF8 /* celeb.swift */; };
+		7BCE2D581D36CEAF007EDCF8 /* CelebListViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BCE2D571D36CEAF007EDCF8 /* CelebListViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		7BCE2D511D35850E007EDCF8 /* CelebListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CelebListViewController.swift; sourceTree = "<group>"; };
 		7BCE2D531D3586CE007EDCF8 /* celebs.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = celebs.json; sourceTree = "<group>"; };
 		7BCE2D551D358987007EDCF8 /* celeb.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = celeb.swift; sourceTree = "<group>"; };
+		7BCE2D571D36CEAF007EDCF8 /* CelebListViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CelebListViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				7BCE2D211D357EF1007EDCF8 /* AppDelegate.swift */,
 				7BCE2D231D357EF1007EDCF8 /* ViewController.swift */,
 				7BCE2D511D35850E007EDCF8 /* CelebListViewController.swift */,
+				7BCE2D571D36CEAF007EDCF8 /* CelebListViewCell.swift */,
 				7BCE2D251D357EF1007EDCF8 /* Main.storyboard */,
 				7BCE2D281D357EF1007EDCF8 /* Assets.xcassets */,
 				7BCE2D2A1D357EF1007EDCF8 /* LaunchScreen.storyboard */,
@@ -266,6 +269,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7BCE2D581D36CEAF007EDCF8 /* CelebListViewCell.swift in Sources */,
 				7BCE2D241D357EF1007EDCF8 /* ViewController.swift in Sources */,
 				7BCE2D561D358987007EDCF8 /* celeb.swift in Sources */,
 				7BCE2D521D35850E007EDCF8 /* CelebListViewController.swift in Sources */,

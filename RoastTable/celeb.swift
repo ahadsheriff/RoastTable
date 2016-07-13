@@ -11,12 +11,14 @@ import UIKit
 struct Celeb {
     let name: String
     let twitter: String
+    let imageName: String
     let image: UIImage
     
-    init(name: String, twitter: String, image: UIImage) {
+    init(name: String, twitter: String, image: UIImage, imageName: String) {
         self.name = name
         self.twitter = twitter
         self.image = image
+        self.imageName = imageName
     }
     
     static func celebsFromBundle() -> [Celeb] {
@@ -41,7 +43,7 @@ struct Celeb {
                     imageName = celebObject["image"] as? String,
                     image = UIImage(named: imageName) {
                 
-                    let celeb = Celeb(name: name, twitter: twitter, image: image)
+                    let celeb = Celeb(name: name, twitter: twitter, image: image, imageName: imageName)
                     celebs.append(celeb)
                     
                 }
