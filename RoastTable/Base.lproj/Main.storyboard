@@ -13,6 +13,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="sectionIndexBackgroundColor" red="0.31308092948717947" green="0.31308092948717947" blue="0.31308092948717947" alpha="1" colorSpace="calibratedRGB"/>
                         <prototypes>
                             <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="Cell" rowHeight="300" id="0QC-rl-HOA" customClass="CelebListViewCell" customModule="RoastTable" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="92" width="600" height="300"/>
@@ -27,7 +28,7 @@
                                             <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                             <nil key="highlightedColor"/>
                                         </label>
-                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="QnE-JP-IP6">
+                                        <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="QnE-JP-IP6">
                                             <rect key="frame" x="0.0" y="0.0" width="600" height="300"/>
                                             <color key="backgroundColor" red="0.45706424392564093" green="0.45706424392564093" blue="0.45706424392564093" alpha="1" colorSpace="calibratedRGB"/>
                                         </imageView>
@@ -61,7 +62,7 @@
         <!--Navigation Controller-->
         <scene sceneID="WLO-S4-J9N">
             <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="sHm-Q9-hmf" sceneMemberID="viewController">
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" hidesBarsOnSwipe="YES" id="sHm-Q9-hmf" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="Hhi-dV-xaK">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>

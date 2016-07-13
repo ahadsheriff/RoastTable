@@ -3,22 +3,22 @@
     {
       "name" : "Donald Trump",
       "twitter" : "@realDonaldTrump",
-      "image" : "trump",
+      "image" : "trump3",
     },
               {
               "name" : "Hillary Clinton",
               "twitter" : "@HillaryClinton",
-              "image" : "clinton",
+              "image" : "clinton3",
               },
               {
               "name" : "Drake",
               "twitter" : "@Drake",
-              "image" : "clinton",
+              "image" : "drake3",
               },
               {
               "name" : "Kanye West",
               "twitter" : "@KanyeWest",
-              "image" : "kanye",
+              "image" : "kanye3",
               },
 
 
