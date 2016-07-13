@@ -23,15 +23,22 @@ class CelebListViewController: UITableViewController {
 
     override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
         
+        // let cell: CelebListViewCell = tableView.dequeueReusableCellWithIdentifier("Cell", forIndexPath: indexPath) as! CelebListViewCell
+        
+        // cell.setCell(celeb.twitter, imageName: celeb.imageName)
+        
+        // old
         // let cell = tableView.dequeueReusableCellWithIdentifier("Cell", forIndexPath: indexPath)
         
         let cell: CelebListViewCell = tableView.dequeueReusableCellWithIdentifier("Cell", forIndexPath: indexPath) as! CelebListViewCell
-
+        
+        //Keep
         let celeb = celebs[indexPath.row]
         
         cell.setCell(celeb.twitter, imageName: celeb.imageName)
 
         return cell
+        
     }
 
 }

@@ -41,7 +41,7 @@ struct Celeb {
                 if let name = celebObject["name"] as? String,
                     twitter = celebObject["twitter"]  as? String,
                     imageName = celebObject["image"] as? String,
-                    image = UIImage(named: imageName) {
+                    image = UIImage(named: imageName + ".jpg") {
                 
                     let celeb = Celeb(name: name, twitter: twitter, image: image, imageName: imageName)
                     celebs.append(celeb)

@@ -18,13 +18,13 @@
                                 <rect key="frame" x="0.0" y="92" width="600" height="300"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="0QC-rl-HOA" id="lmR-wj-HPt">
-                                    <rect key="frame" x="0.0" y="0.0" width="600" height="300"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="600" height="299.5"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ILE-0h-4RN">
                                             <rect key="frame" x="250" y="100" width="100" height="100"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                            <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                             <nil key="highlightedColor"/>
                                         </label>
                                         <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="QnE-JP-IP6">
@@ -43,7 +43,6 @@
                                 </tableViewCellContentView>
                                 <connections>
                                     <outlet property="handle" destination="ILE-0h-4RN" id="wXr-eq-2jY"/>
-                                    <outlet property="image" destination="QnE-JP-IP6" id="DOT-Tl-zpL"/>
                                     <outlet property="pic" destination="QnE-JP-IP6" id="38n-Uy-NS5"/>
                                 </connections>
                             </tableViewCell>
